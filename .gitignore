@@ -1,0 +1,40 @@
+# Godot 4+ specific
+.godot/
+*.import
+
+# Export presets (may contain sensitive paths)
+export_presets.cfg
+export/
+
+# Build artifacts
+*.pck
+*.zip
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Large media (track in separate asset pipeline)
+*.psd
+*.blend
+
+# Secrets
+.env
+.env.*
+credentials*
+
+# Temp
+tmp/
+temp/
+*.log
+
+# Godot autoload UIDs (generated, but some workflows track them)
+# *.uid files are tracked by default — remove the line below if you don't want them
+# *.uid
